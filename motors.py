@@ -1,0 +1,16 @@
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycles = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycles)
+motorcycles.append(popped_motorcycles)
+print(motorcycles)
+motorcycles.remove('suzuki')
+print(motorcycles)
+cars = ['bmw', 'audi', 'toyota', 'suberru']
+#cars.sort()
+print(cars)
+print('\n Here is the sorted list:')
+print(sorted(cars))
+print(cars)
+print(len(cars))

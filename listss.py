@@ -1,5 +1,7 @@
 bicycles = ['trek', 'cannodale', 'redline', 'specialized']
 print(bicycles[0].upper())
+print(bicycles[1].upper())
+print(bicycles[0].upper())
 bicycles[1] = 'durati'
 print(bicycles)
 print(bicycles[1])
